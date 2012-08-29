@@ -5,5 +5,5 @@ A NodeJS Server for sending notifications to OSX Mountain Lion's Notification Ce
 TODO
 ----
 polish off the README
-fill out the package.json file
+Add a license and update package.json
 npm publish
