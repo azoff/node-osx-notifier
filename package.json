@@ -1,10 +1,33 @@
 {
-	"name": "node-osx-notifier",
-	"description": "Server for OSX Mountain Lion's Notification Center",
-	"version": "0.0.1",
-	"author": "Jonathan Azoff <jon@azoffdesign.com>",
-	"dependencies": {
-		"express":    "3.0.x"
-	},
-	"engine": "node >= 0.8.4"
+  "name": "node-osx-notifier",
+  "description": "A NodeJS Server for sending notifications to OSX Mountain Lion's Notification Center",
+  "version": "0.1.0",
+  "homepage": "https://github.com/azoff/node-osx-notifier",
+  "author": {
+    "name": "Jonathan Azoff",
+    "email": "jon@azoffdesign.com",
+    "url": "http://azoffdesign.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com:azoff/node-osx-notifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azoff/node-osx-notifier/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/azoff/node-osx-notifier/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/node-osx-notifier",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "filesearch" : "lib/filesearch.js"
+  },
+  "keywords": ["osx"]
 }
