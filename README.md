@@ -69,9 +69,9 @@ of the server request. Each notification type changes the icon and section in th
 
 * _info_ `http://localhost:1337/info` used for basic notifications
    * ![info screenshot](http://f.cl.ly/items/0P3i301J281x1A0Q1L46/Screen%20Shot%202012-08-30%20at%201.19.18%20AM.png)
-* _info_ `http://localhost:1337/pass` used for showing that a job has passed
+* _pass_ `http://localhost:1337/pass` used for showing that a job has passed
    * ![info screenshot](http://f.cl.ly/items/0Q0A3b2S0v0Q2E3l0B0q/Screen%20Shot%202012-08-30%20at%201.21.03%20AM.png)
-* _info_ `http://localhost:1337/fail` used for showing that a job has failed
+* _fail_ `http://localhost:1337/fail` used for showing that a job has failed
    * ![info screenshot](http://f.cl.ly/items/1H3v2H173A0r3a2F3l0x/Screen%20Shot%202012-08-30%20at%201.19.57%20AM.png)
 
 In addition, you will also need to pass parameters (as JSON POST-data or a querystring) that tells the server what to
