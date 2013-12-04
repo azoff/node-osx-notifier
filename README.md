@@ -3,6 +3,12 @@ node-osx-notifier
 A [NodeJS](http://nodejs.org) Server for sending notifications to OSX Mountain Lion's
 [Notification Center](http://www.macworld.com/article/1165411/mountain_lion_hands_on_with_notification_center.html).
 
+Support
+-------
+If you're having problems with using the project, use the support forum at CodersClan.
+
+<a href="http://codersclan.net/forum/index.php?repo_id=19"><img src="http://www.codersclan.net/graphics/getSupport_blue_big.png" width="160"></a>
+
 Synopsis
 --------
 OSX Mountain Lion comes packaged with a built-in notification center. For whatever reason, [Apple sandboxed the
