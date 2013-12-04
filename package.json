@@ -28,7 +28,6 @@
 	"engines":{
 		"node":">= 0.8.0"
 	},
-	"preferGlobal":"true",
 	"bin":{
 		"node-osx-notifier":"lib/node-osx-notifier.js"
 	},
